@@ -15,6 +15,8 @@ Backend в [соседнем репозитории](https://github.com/Trosh-A/
 - Применена русская локализация;
 - Все доступные операции сделаны на стороне сервера.
 ## Как запустить
+- Скачать зависимости из Nuget dotnet restore
 - Собрать и запустить backend с помощью dotnet-cli или в Visual Studio.
-- В проекте frontend установить переменную окружения VUE_APP_BASE_SERVER_URL с адресом backend (например: VUE_APP_BASE_SERVER_URL=https://localhost:7028). Внимание: в конце пути слеш не ставить!
+- В проекте frontend установить переменную окружения VUE_APP_BASE_SERVER_URL с адресом backend (например: VUE_APP_BASE_SERVER_URL=https://localhost:7028). Внимание: в конце пути слеш не ставить! 
+- Скачать зависимости npm install
 - Собрать(npm run build). Готовый проект будет в папке dist.
