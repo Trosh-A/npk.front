@@ -20,7 +20,7 @@
       />
       <DxFilterRow visible="true" />
       <DxHeaderFilter visible="true" />
-      <DxSearchPanel visible="true" :width="300" placeholder="Найти..." />
+      <DxSearchPanel visible="true" :width="300" />
       <DxColumn :data-field="id" caption="Id" alignment="right" />
       <DxColumn :data-field="firstName" caption="Имя" />
       <DxColumn :data-field="lastName" caption="Фамилия" />
