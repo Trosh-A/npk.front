@@ -15,7 +15,7 @@ Backend в [соседнем репозитории](https://github.com/Trosh-A/
 - Применена русская локализация;
 - Все доступные операции сделаны на стороне сервера.
 ## Как запустить
-- Скачать/склопировать репозиторий [npkback](https://github.com/Trosh-A/npk.back)
+- - Скачать/клонировать репозиторий [npkback](https://github.com/Trosh-A/npk.back)
 - Скачать зависимости из Nuget dotnet restore
 - Собрать и запустить проект с помощью dotnet-cli или в Visual Studio.
 ## Если необходима доработка Vue приложения
