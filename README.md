@@ -19,7 +19,7 @@ Backend в [соседнем репозитории](https://github.com/Trosh-A/
 - Скачать зависимости из Nuget dotnet restore
 - Собрать и запустить проект с помощью dotnet-cli или в Visual Studio.
 ## Если необходима доработка Vue приложения
-- Скачать проект frontend из ветки main
+- Скачать проект frontend из ветки main;
 - В проекте frontend установить переменную окружения VUE_APP_BASE_SERVER_URL с адресом backend (например: VUE_APP_BASE_SERVER_URL=https://localhost:7028). Внимание: в конце пути слеш не ставить! 
-- Скачать зависимости npm install
+- Скачать зависимости npm install;
 - Собрать (npm run build) или запустить в dev режиме (npm run serve).
